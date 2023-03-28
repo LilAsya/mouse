@@ -1,0 +1,11 @@
+print("Вы мыш?")
+ans1 = input()
+if ans1.lower()=='да':
+    print("Водный мыш?")
+    ans2 = input()
+    if ans2.lower()=='да':
+        print("Вы капибар")
+    else:
+        print("Вы мыш")
+else:
+    print("Вы не мыш")
